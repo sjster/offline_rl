@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "d3rlpy_test"
+version = "0.1.0"
+description = "Test d3rlpy for RL"
+authors = ["Srijith"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+d3rlpy = "^1.1.1"
+scikit-learn = "^1.2.2"
+pandas = "^1.5.3"
+jupyter = "^1.0.0"
+matplotlib = "^3.7.1"
+gym = "0.17.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
